@@ -9,10 +9,12 @@ def display_board(board)
   puts " #{board[3]} | #{board[4]} | #{board[5]} "
   puts "-----------"
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
+
+  display_board(board[4] = "X")
+
 end
 
 # display_board("")
-display_board(board[4] = "X")
 
 
 

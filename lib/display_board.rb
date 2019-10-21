@@ -12,6 +12,7 @@ def display_board(board)
 end
 
 display_board("")
+puts " #{board[0]="X"}"
 
 
 
